@@ -16,9 +16,15 @@
 		EDAA42691E113E5700B39299 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAA42671E113E5700B39299 /* Interface.storyboard */; };
 		EDAA426B1E113E5700B39299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAA426A1E113E5700B39299 /* Assets.xcassets */; };
 		EDAA42721E113E5700B39299 /* PizzasSwiftAppleWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EDAA42711E113E5700B39299 /* PizzasSwiftAppleWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		EDAA42771E113E5700B39299 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA42761E113E5700B39299 /* InterfaceController.swift */; };
+		EDAA42771E113E5700B39299 /* TamanioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA42761E113E5700B39299 /* TamanioController.swift */; };
 		EDAA42791E113E5700B39299 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA42781E113E5700B39299 /* ExtensionDelegate.swift */; };
 		EDAA427B1E113E5700B39299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAA427A1E113E5700B39299 /* Assets.xcassets */; };
+		EDAA428B1E113EF800B39299 /* MasaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA428A1E113EF800B39299 /* MasaController.swift */; };
+		EDAA428D1E113F1000B39299 /* QuesoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA428C1E113F1000B39299 /* QuesoController.swift */; };
+		EDAA428F1E113F3400B39299 /* IngredientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA428E1E113F3400B39299 /* IngredientesController.swift */; };
+		EDAA42911E113F6400B39299 /* FinPedidoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA42901E113F6400B39299 /* FinPedidoController.swift */; };
+		EDAA42931E113F7900B39299 /* ConfirmacionPedidoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA42921E113F7900B39299 /* ConfirmacionPedidoController.swift */; };
+		EDAA42951E113F9900B39299 /* DatosPedido.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA42941E113F9900B39299 /* DatosPedido.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,10 +82,16 @@
 		EDAA426A1E113E5700B39299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDAA426C1E113E5700B39299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDAA42711E113E5700B39299 /* PizzasSwiftAppleWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PizzasSwiftAppleWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDAA42761E113E5700B39299 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		EDAA42761E113E5700B39299 /* TamanioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamanioController.swift; sourceTree = "<group>"; };
 		EDAA42781E113E5700B39299 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		EDAA427A1E113E5700B39299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDAA427C1E113E5700B39299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDAA428A1E113EF800B39299 /* MasaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasaController.swift; sourceTree = "<group>"; };
+		EDAA428C1E113F1000B39299 /* QuesoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesoController.swift; sourceTree = "<group>"; };
+		EDAA428E1E113F3400B39299 /* IngredientesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesController.swift; sourceTree = "<group>"; };
+		EDAA42901E113F6400B39299 /* FinPedidoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinPedidoController.swift; sourceTree = "<group>"; };
+		EDAA42921E113F7900B39299 /* ConfirmacionPedidoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionPedidoController.swift; sourceTree = "<group>"; };
+		EDAA42941E113F9900B39299 /* DatosPedido.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatosPedido.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,10 +158,16 @@
 		EDAA42751E113E5700B39299 /* PizzasSwiftAppleWatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				EDAA42761E113E5700B39299 /* InterfaceController.swift */,
+				EDAA42761E113E5700B39299 /* TamanioController.swift */,
+				EDAA428A1E113EF800B39299 /* MasaController.swift */,
+				EDAA428C1E113F1000B39299 /* QuesoController.swift */,
 				EDAA42781E113E5700B39299 /* ExtensionDelegate.swift */,
 				EDAA427A1E113E5700B39299 /* Assets.xcassets */,
 				EDAA427C1E113E5700B39299 /* Info.plist */,
+				EDAA428E1E113F3400B39299 /* IngredientesController.swift */,
+				EDAA42901E113F6400B39299 /* FinPedidoController.swift */,
+				EDAA42921E113F7900B39299 /* ConfirmacionPedidoController.swift */,
+				EDAA42941E113F9900B39299 /* DatosPedido.swift */,
 			);
 			path = "PizzasSwiftAppleWatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -301,8 +319,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDAA428F1E113F3400B39299 /* IngredientesController.swift in Sources */,
 				EDAA42791E113E5700B39299 /* ExtensionDelegate.swift in Sources */,
-				EDAA42771E113E5700B39299 /* InterfaceController.swift in Sources */,
+				EDAA42931E113F7900B39299 /* ConfirmacionPedidoController.swift in Sources */,
+				EDAA42911E113F6400B39299 /* FinPedidoController.swift in Sources */,
+				EDAA42951E113F9900B39299 /* DatosPedido.swift in Sources */,
+				EDAA428D1E113F1000B39299 /* QuesoController.swift in Sources */,
+				EDAA42771E113E5700B39299 /* TamanioController.swift in Sources */,
+				EDAA428B1E113EF800B39299 /* MasaController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
